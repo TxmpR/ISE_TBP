@@ -1,0 +1,45 @@
+{
+  "command": "bug_report_classification.py",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9"
+  },
+  "settings": {
+    "data_dir": "datasets",
+    "output_dir": "results",
+    "n_runs": 30,
+    "seed": 7,
+    "test_size": 0.3,
+    "min_df": 2,
+    "baseline": "NB",
+    "proposed": "SVM",
+    "no_plots": false
+  },
+  "data_files": [
+    {
+      "file": "datasets\\caffe.csv",
+      "sha256": "9c36a155803cfb88dbd0fb265e940aa25ce54445760bbb63bc00fada25d3a952"
+    },
+    {
+      "file": "datasets\\incubator-mxnet.csv",
+      "sha256": "cda44f51ffb90f61dd990274ca08d8462710e87d2e141de27afd22d34f4b482f"
+    },
+    {
+      "file": "datasets\\keras.csv",
+      "sha256": "aaae0209e98779e8b41b8d244c4b6c33a07669862757e9a7dc5686ecc74ca88c"
+    },
+    {
+      "file": "datasets\\pytorch.csv",
+      "sha256": "75bc51a244a7e379772ff97d6696c8bc56fb205d081b67a87e07d1a1411baba4"
+    },
+    {
+      "file": "datasets\\tensorflow.csv",
+      "sha256": "e4255f5bae16ac5f59042745a885e4b828526e443fe37d3dc2cd267e6262241c"
+    }
+  ]
+}
